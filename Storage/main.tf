@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "terraform_test" {
 }
 
 resource "azurerm_storage_account" "sample_storage" {
-  name                     = "terraformstorage7477"
+  name                     = "terraformstorage747"
   resource_group_name      = azurerm_resource_group.terraform_test.name
   location                 = azurerm_resource_group.terraform_test.location
   account_tier             = "Standard"
